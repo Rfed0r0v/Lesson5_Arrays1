@@ -41,6 +41,12 @@ public class Main {
         float medSpending = 0.0f;
         medSpending = totalSpendings/(float)arr.length;
         System.out.println("Средняя сумма трат за день составила: " + medSpending + " рублей.");
+
+        System.out.println("\nЗадание 4");
+        char[] reverseFullName = { 'n', 'a', 'v', 'I', ' ', 'v', 'o', 'n', 'a', 'v', 'I'};
+        for (int l = reverseFullName.length-1;  l >= 0; l--){
+            System.out.print(reverseFullName[l]);
+        }
     }
 
 }
